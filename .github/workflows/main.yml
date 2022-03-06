@@ -26,6 +26,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: running tests 
         run: 
+        echo Starting the tests: 
         mkdir bin 
         mkdir lib 
         
